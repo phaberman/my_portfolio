@@ -1,4 +1,6 @@
 import streamlit as st
+import base64
+import os
 
 # Pages
 about_me_page = st.Page("about_me.py", title="About Me")

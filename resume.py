@@ -1,7 +1,7 @@
 import streamlit as st
 from components.resume_blocks import render_job, render_education
 
-tab0, tab1, tab2, tab3, tab4 = st.tabs(["Summary", "Professional Experience", "Education", "Skills", "Languages"])
+tab0, tab1, tab2, tab3 = st.tabs(["Summary", "Professional Experience", "Education", "Skills"])
 
 with tab0:
     st.header("Summary")
@@ -113,8 +113,8 @@ with tab2:
 
     # Le Wagon
     render_education(
-        degree="Data Science",
-        major="",
+        degree="Certificate",
+        major="Data Science",
         school="Le Wagon",
         gpa="",
         location="Shanghai, China",
@@ -150,6 +150,8 @@ with tab2:
     )
 
 with tab3:
+    st.header("Skills")
+
     # CSS for tag-style skills
     st.markdown("""
     <style>
@@ -168,18 +170,15 @@ with tab3:
     skills_data = {
         "Analytical & Technical": [
             "Python", "SQL", "Data Analysis", "Business Analysis",
-            "Data Cleaning", "Data Visualization", "Dashboarding"
+            "Data Cleaning", "Data Visualization", "Dashboarding", "Git"
         ],
         "Tools & Platforms": [
-            "Excel / Google Sheets", "BI Tools", "Metabase", "Git / GitHub"
-        ],
-        "Communication & Collaboration": [
-            "Communication", "Cross-cultural Communication",
+            "Metabase", "Github", "Excel", "Jupyter Lab", "VSCode"],
+        "Soft Skills & Language": [
+            "Communication", "Teamwork", "Problem Solving", "Critical Thinking",
             "English (Native)", "Spanish (Fluent)", "Chinese (Intermediate)"
         ]
     }
-
-    st.subheader("Skills")
 
     # Layout: 3 columns
     col1, col2, col3 = st.columns(3)
@@ -193,6 +192,3 @@ with tab3:
                 "".join([f"<span class='skill-tag'>{skill}</span>" for skill in skill_list]),
                 unsafe_allow_html=True
             )
-
-with tab4:
-    st.header("Languages")
