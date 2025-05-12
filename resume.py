@@ -1,7 +1,7 @@
 import streamlit as st
 from components.resume_blocks import render_job, render_education
 
-tab0, tab1, tab2, tab3 = st.tabs(["Summary", "Professional Experience", "Education", "Skills"])
+tab0, tab1, tab2, tab3, tab4 = st.tabs(["Summary", "Professional Experience", "Education", "Skills", "Download"])
 
 with tab0:
     st.header("Summary")
@@ -192,3 +192,15 @@ with tab3:
                 "".join([f"<span class='skill-tag'>{skill}</span>" for skill in skill_list]),
                 unsafe_allow_html=True
             )
+with tab4:
+    st.header("Download Resume")
+
+    with open("assets/resume_phillip_haberman.pdf", "rb") as f:
+        pdf_bytes = f.read()
+        st.download_button(
+            label="Download PDF",
+            data=pdf_bytes,
+            file_name="resume_phillip_haberman.pdf",
+            mime="application/pdf",
+            help="Click to download my resume in PDF format."
+        )
