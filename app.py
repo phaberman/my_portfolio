@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(layout='centered', page_icon="assets/logo.png")
+st.set_page_config(layout='wide', page_icon="assets/logo.png")
 
 # Pages
 about_me_page = st.Page("about_me.py", title="About Me")
