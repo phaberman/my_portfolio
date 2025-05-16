@@ -12,7 +12,7 @@ st.header("Projects")
 # st.markdown("---")
 
 # Row 1
-row1_col1, row1_col2, row1_col3 = st.columns(3)
+row1_col1, row1_col2 = st.columns(2)
 
 with row1_col1:
     with st.container():
@@ -24,18 +24,11 @@ with row1_col2:
     with st.container():
         st.subheader("Stay tuned...")
 
-with row1_col3:
-    with st.container():
-        st.subheader("Stay tuned...")
-
 # Row 2
-row2_col1, row2_col2, row2_col3 = st.columns(3)
+row2_col1, row2_col2 = st.columns(2)
 with row2_col1:
     with st.container():
         st.subheader("Stay tuned...")
 with row2_col2:
-    with st.container():
-        st.subheader("Stay tuned...")
-with row2_col3:
     with st.container():
         st.subheader("Stay tuned...")
