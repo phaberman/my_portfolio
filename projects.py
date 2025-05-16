@@ -1,9 +1,5 @@
 import streamlit as st
 
-st.title('Projects')
-
-st.divider()
-
 with st.container(border=False):
     row1_col1, row1_col2, row1_col3 = st.columns(3)
 

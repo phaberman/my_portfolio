@@ -1,10 +1,6 @@
 import streamlit as st
 from components.resume_blocks import render_job, render_education
 
-st.title("Resume")
-
-st.divider()
-
 tab0, tab1, tab2, tab3, tab4 = st.tabs(["Summary", "Professional Experience", "Education", "Skills", "Download"])
 
 with tab0:
