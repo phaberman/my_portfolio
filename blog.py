@@ -1,3 +1,7 @@
 import streamlit as st
 
-st.title("Stay Tuned...")
+st.title("Blog")
+
+st.divider()
+
+st.subheader("Stay Tuned...")

@@ -3,6 +3,8 @@ import base64
 
 st.title("Social Links")
 
+st.divider()
+
 # Load and encode image
 def get_image_base64(image_path):
     with open(image_path, "rb") as img_file:

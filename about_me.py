@@ -2,7 +2,7 @@ import streamlit as st
 
 # About Me content
 about_me = """
-<div style='font-size:20px; line-height:1.5;'>
+<div style='font-size:18px; line-height:1.5;'>
 Hi, I’m <strong>Phillip Haberman</strong> — a data analyst with experience turning messy data into meaningful insights.
 I specialize in <strong>Python</strong>, <strong>SQL</strong>, and <strong>BI tools</strong>,
 with a strong track record in the <strong>hospitality and restaurant industry</strong>.
@@ -17,4 +17,7 @@ This site is where I share projects, ideas, and experiments as I grow my skills 
 """
 
 st.title("About Me")
+
+st.divider
+
 st.markdown(about_me, unsafe_allow_html=True)
