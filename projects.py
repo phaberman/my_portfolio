@@ -37,14 +37,14 @@ with st.container(border=False):
         st.link_button(label="See Project", url="https://github.com/phaberman/Market-Basket-Analysis-Project", type="primary")
 
     with row1_col2:
-        st.subheader("Metabase Sales Dashboard (Coming Soon)")
+        st.subheader("Coming Soon")
         st.image("assets/dashboard.jpg", use_container_width=True)
         st.caption("An interactive dashboard built in Metabase that visualizes sales performance across categories, locations, and time periods. Designed to surface trends and support operational decision-making.")
         st.markdown("#metabase #salesdashboard #sql")
         st.link_button(label="See Project", url="", type="primary")
 
     with row1_col3:
-        st.subheader("Varaince Root-Cause Analysis (Coming Soon)")
+        st.subheader("Coming Soon")
         st.image("assets/inventory.jpg", use_container_width=True)
         st.caption("A diagnostic dashboard built in Metabase to explore mismatches between recorded and actual inventory. Helps identify stock control issues and reduce waste using filters and variance analysis.")
         st.markdown("#metabase #inventory-management #sql")

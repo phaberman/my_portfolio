@@ -4,8 +4,6 @@ from components.resume_blocks import render_job, render_education
 tab0, tab1, tab2, tab3, tab4 = st.tabs(["Summary", "Professional Experience", "Education", "Skills", "Download"])
 
 with tab0:
-    st.header("Summary")
-
     st.markdown("""
                 My career has followed an evolving path — from education and client management to data science
                 — always centered around communication, systems thinking, and problem-solving.
