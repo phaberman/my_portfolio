@@ -34,7 +34,7 @@ with st.container(border=False):
         st.image("assets/market_basket.jpg", use_container_width=True)
         # st.markdown("#marketbasketanalysis #apriori #dataanalysis")
         st.link_button(label="See Project", url="https://github.com/phaberman/Market-Basket-Analysis-Project", type="primary", use_container_width=True)
-        st.caption("A project using association rule mining (Apriori algorithm) to uncover product combinations frequently purchased together. Helps businesses optimize promotions and cross-selling strategie")
+        st.caption("A project using association rule mining (Apriori algorithm) to uncover product combinations frequently purchased together. Helps businesses optimize promotions and cross-selling strategies.")
 
     with row1_col2:
         st.subheader("Coming Soon")

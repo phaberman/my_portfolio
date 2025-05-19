@@ -168,13 +168,13 @@ with tab3:
     skills_data = {
         "Analytical & Technical": [
             "Python", "SQL", "Data Analysis", "Business Analysis",
-            "Data Cleaning", "Data Visualization", "Dashboarding", "Git"
+            "Data Cleaning", "Data Visualization", "Dashboarding", "Git", "Data Modeling"
         ],
         "Tools & Platforms": [
-            "Metabase", "Github", "Excel", "Jupyter Lab", "VSCode"],
+            "Metabase", "Github", "Excel", "Jupyter Lab", "VSCode", "Docker"],
         "Soft Skills & Language": [
             "Communication", "Teamwork", "Problem Solving", "Critical Thinking",
-            "English (Native)", "Spanish (Fluent)", "Chinese (Intermediate)"
+            "English (Native)", "Spanish (Advanced)", "Chinese (Intermediate)"
         ]
     }
 
