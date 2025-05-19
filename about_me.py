@@ -6,10 +6,10 @@ about_me = """
 Hi, I'm <strong>Phillip Haberman</strong> — a data analyst with experience turning messy data into meaningful insights.
 I specialize in <strong>Python</strong>, <strong>SQL</strong>, and <strong>BI tools</strong>,
 with a strong track record in the <strong>hospitality and restaurant industry</strong>.
-Whether it's uncovering trends, building dashboards, or improving operations, I love using data to solve real-world problems.
+Whether it's uncovering trends, building dashboards, or improving operations, I love using data to solve real-world problems.<br><br>
 
 Outside of work, I enjoy reading, playing softball, and spending time with my wife and daughter.
-We love being outdoors, discovering new foods, and exploring new places together.
+We love being outdoors, discovering new foods, and exploring new places together.<br><br>
 
 This site is where I share projects, ideas, and experiments as I grow my skills and explore new challenges in analytics.
 </div>
