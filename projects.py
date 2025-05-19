@@ -11,14 +11,14 @@ with st.container(border=False):
         st.caption("A Streamlit app that helps restaurant managers categorize and visualize menu item performance using sales and cost data. Includes built-in filters and an embedded YouTube demo walkthrough.")
 
     with row1_col2:
-        st.subheader("Deploying Metabase with Docker")
+        st.subheader("Deploying Metabase")
         st.image("assets/docker.jpg", use_container_width=True)
         # st.markdown("#metabase #docker #bigquery")
         st.link_button(label="See Project", url="https://medium.com/@pjhab2020/deploying-metabase-with-docker-and-setting-up-google-bigquery-connection-5c8e7dfa5840", type="primary", use_container_width=True)
         st.caption("A technical walkthrough of deploying Metabase using Docker and connecting it to a Google BigQuery database. Includes setup, authentication, and dashboard creation.")
 
     with row1_col3:
-        st.subheader("Reporting with Google Sheets")
+        st.subheader("Reporting with Google")
         st.image("assets/reports.jpg", use_container_width=True)
         # st.markdown("#google-sheets #google-docs #reporting")
         st.link_button(label="See Project", url="https://medium.com/@pjhab2020/how-to-build-a-simple-shareable-report-with-google-sheets-and-docs-9e8faab12898", type="primary", use_container_width=True)
