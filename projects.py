@@ -38,7 +38,7 @@ with st.container(border=False):
 
     with row1_col2:
         st.subheader("Metabase Actions")
-        st.image("assets/form.png", use_container_width=True)
+        st.image("assets/restaurant.jpg", use_container_width=True)
         # st.markdown("#metabase #metabase-actions #metabase-uploads")
         st.link_button(label="See Project", url="https://www.youtube.com/watch?v=jnAkCAn6uc4", type="primary", use_container_width=True)
         st.caption("A video where I demonstrate how to build a CRUD app using Metabase CSV Uploads and Action Buttons. Includes a real-world example of a restaurant using it to track daily foot traffic.")
