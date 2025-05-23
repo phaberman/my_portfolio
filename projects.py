@@ -37,11 +37,11 @@ with st.container(border=False):
         st.caption("A project using association rule mining (Apriori algorithm) to uncover product combinations frequently purchased together. Helps businesses optimize promotions and cross-selling strategies.")
 
     with row1_col2:
-        st.subheader("Coming Soon")
-        st.image("assets/dashboard.jpg", use_container_width=True)
-        # st.markdown("#metabase #salesdashboard #sql")
-        st.link_button(label="See Project", url="", type="primary", use_container_width=True)
-        st.caption("An interactive dashboard built in Metabase that visualizes sales performance across categories, locations, and time periods. Designed to surface trends and support operational decision-making.")
+        st.subheader("Metabase Uploads & Actions")
+        st.image("assets/form.png", use_container_width=True)
+        # st.markdown("#metabase #metabase-actions #metabase-uploads")
+        st.link_button(label="See Project", url="https://www.youtube.com/watch?v=jnAkCAn6uc4", type="primary", use_container_width=True)
+        st.caption("A video where I demonstrate how to build a CRUD app using Metabase CSV Uploads and Action Buttons. Includes a real-world example of a restaurant or retail outlet using it to track daily foot traffic.")
 
     with row1_col3:
         st.subheader("Coming Soon")
